@@ -6,4 +6,5 @@ The game(/server) script is written in **node.js** with help of socket.io, expre
 To launch a game open app.js in terminal and go to local host at port 2000 (node.js/socket.io/express libraries required).
 If you wish to use data base xamp control panel is required. 
 
-Current state of the game was developed in 4 weeks.
+As it was a part of university studies, the technical raport is available in this repository
+Current state of the game was developed in 4 weeks (university deadline).
