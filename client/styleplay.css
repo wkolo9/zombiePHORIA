@@ -1,0 +1,229 @@
+.logo
+{
+	width: 85px;
+	height: 120px;
+}
+.title
+{
+	font-family: 'East Sea Dokdo', cursive;
+	color: white;
+	margin-top: 30px;
+	text-align: center;
+	font-size: 90px;
+}
+.subtitle
+{
+	font-family: 'East Sea Dokdo', cursive;
+	color: gray;
+	text-align: center;
+	font-size: 60px;
+}
+a{
+	color: white;
+	margin-top: 20px;
+	margin-bottom: 10px;
+	text-decoration: none;
+}
+.class_box
+{ 
+	height: 500px;
+	width: 300px;
+	margin: 75px;	
+	float: left;
+	text-align: center;
+	justify-content: center;
+}
+button
+{
+	height: 550px;
+	width: 330px;
+	margin-left: 75px;
+	margin-right: 75px;
+	margin-bottom: 75px;
+	margin-top: 35px;
+}
+button:hover
+{
+	border: 5px solid DarkGreen;
+	box-shadow: 5px 5px 15px Green;
+}
+button#speedy
+{
+	background: url(img/speedy_class.png);
+}
+button#sniper
+{
+	background: url(img/sniper_class.png);
+}
+button#heavy
+{
+	background: url(img/heavy_class.png);
+}
+.container
+{
+	margin-left: 150px;
+	margin-right: 150px;
+	text-align: center;
+	justify-content: center;
+}
+input[type=image]
+{
+	height: 500px;
+	width: 300px;
+	margin: 75px;
+}
+
+#menu
+{
+	color: white;
+	text-align: right;
+	position: absolute;
+	top: 10px;
+	right: 20px;	
+}
+.logout
+{
+	position: absolute;
+	bottom: 20px;
+	right: 5px;	
+}
+.sprite{
+	width: 15px;
+	height: 15px;  
+}
+.sprite_average{
+	margin-top: 3px;
+	width: 25px;
+	height: 25px; 	
+}
+.sprite_big{
+	margin: 5px;
+	width: 50px;
+	height: 30px; 	
+}
+.sprite_wide{
+	margin: 5px;
+	width: 80px;
+	height: 30px; 	
+}
+.error{
+	color: red;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.footer
+{
+	background-color: black;
+	color: gray;
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+	text-align: center;
+	width: 100%;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+body
+{
+  background-image: url("img/bgnd.png");
+  color: white;
+  font-size: 20px;
+}
+a.logout
+{
+	background-color: black;
+	color: white;
+	border: 2px solid white;
+	padding: 10px;
+}
+.shop{
+	position: absolute;
+	top:35%;
+	left:23%;
+}
+
+.shop_box{
+	width: 300px;
+	font-size: 18px; 
+	background-color: #2F4F4F;
+	color: white;
+	border: 2px solid white;
+	border-radius: 5px;
+	box-sizing: border-box;
+	outline: none;
+	text-align: center;
+	justify-content: center;
+	float: left;
+	margin: 10px;
+	padding: 5px;
+}
+#shop_lvl{
+	width: 150px;
+	border: 4px solid Gold;
+	border-radius: 5px;
+	box-sizing: border-box;
+	padding: 5px;
+	margin-left: 70px;
+	background-color: #8B0000;
+}
+#shop_textbox{
+	border: 2px solid IndianRed;
+	border-radius: 5px;
+	box-sizing: border-box;
+	padding: 5px;
+	background-color: #483D8B;
+}
+
+.main_textbox{
+	width: 900px;
+	font-size: 23px; 
+	background-color: #2F4F4F;
+	color: white;
+	border: 2px solid white;
+	border-radius: 5px;
+	padding: 10px;
+	box-sizing: border-box;
+	outline: none;
+	text-align: center;
+	justify-content: center;
+	padding: 30px;
+	position: absolute;
+	letter-spacing: 1px;
+	top:37%;
+	left:30%;
+}
+.textbox{
+	width: 185px;
+	height: 40px;
+	background-color: #DAA520;
+	color: white;
+	font-size: 17px;
+	font-weight: bold;
+	border: 2px solid white;
+	border-radius: 5px;
+	padding: 10px;
+	box-sizing: border-box;
+	outline: none;
+	text-align:center;
+	justify-content: center;
+	float: left;
+	margin: 10px;
+}
+#hover_text{
+    opacity: 0;
+    transition: all 0.5s;
+	background-color: #F0E68C;
+	color: black;
+	font-size: 13px;
+	border: 2px solid IndianRed;
+	border-radius: 5px;
+	box-sizing: border-box;
+	padding: 5px;
+}
+.textbox:hover #hover_text{
+    opacity: 1;
+}
+
+
+
+
