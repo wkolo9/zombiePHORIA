@@ -1,4 +1,5 @@
 # ZombiePHORIA - Multiplayer online 2D browser shooter game
+## You can check it out on http://zombiephoria.great-site.net/index.html
 ## This is an alpha version of the game. 
 
 The game(/server) script is written in **node.js** with help of socket.io, express libraries. Client side is included in client/game.html. The data base used was **MySql**. Besides the game there is a login/register page written in **PHP**. Each player can see his stats, highest score, level, currency on landing page. Also, he can purchase some upgrades which are exported to the game server when he connects.
